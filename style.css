@@ -1,0 +1,268 @@
+ul{
+    list-style-type: none;
+    background-color:black;
+    color:white;
+    width:100%;
+    height:40px;
+    padding:0px;
+    margin:0px;
+    display:flex;
+    list-style:none;
+    align-items:center;
+}
+.logo{ 
+    margin-right:auto;
+    padding:20px;
+}
+ul li{
+    display:inline-block;
+    padding: 20px;
+}
+ul li:hover{
+    background-color:gray;
+}
+ul li a{
+    text-decoration: none;
+    color:white;
+    
+}
+.anamenu{
+            border: 1px solid white;
+            background-color:#f2e6ff;
+            width: 100%;
+            min-height: 200px;
+            height:auto;
+          padding:20px;
+          padding-left: 40px;;
+}
+img{
+            width: 150px;
+            height:150px;
+            float: right;
+            display:block;
+            margin-top: 25px;
+            border-radius: 50%;
+            margin-right:25%;
+           
+}
+           .benkimim{
+           margin:0px;
+           padding-left:150px;
+          
+           
+}
+.hakkimda{
+            background-color:#e6ccff;
+            border-radius:10px;
+            text-align:center;
+            width:100px;
+            padding:10px;
+           
+            
+}
+   .bilgiler{
+    background-color:#f2e6ff;
+    border-radius:10px;
+    float: right;
+    width:300px;
+    text-align:center;
+    padding:15px ;
+    margin-right:50px;
+    margin-top:-10px;
+
+}
+.bilgiler h5{
+    margin:8px 0 4px;
+}
+.bilgiler p{
+    margin:0 0 8px;
+}
+
+.renk{
+    color:#bf80ff;
+}
+
+       .card{
+    background-color:white;
+    border-radius:10px;
+    text-align:center;
+    padding:20px;
+}
+.card:hover{
+    transform:scale(1.05);
+    transition:0.3s;
+}
+.cards{
+    display:flex;
+   justify-content:center;
+   gap:20px;
+}
+.yetenekler{
+    clear:both;
+    text-align:center;
+    background-color:#e6ccff;
+    width:100px;
+    padding:10px;
+    border-radius:10px;  
+    border:2px;  
+    margin:50px auto;
+}
+.iletisim{
+    text-align:center;
+    background-color:#e6ccff;
+    padding:5px;
+    width: 100px;
+    border-radius:10px;
+    margin:50px auto;
+  
+}
+
+.kutu1{
+    background-color:#b797d5;
+    text-align:center;
+    border-radius:10px;
+    width:250px;
+    padding:10px;
+    margin-left:500px;
+   
+}
+.kutu1:hover a{
+    color:black;
+    transform:scale(1.05);
+    transition:0.3s;
+}
+.kutu2{
+    background-color:#b797d5;
+    text-align:center;
+    border-radius:10px;
+    width:200px;
+    padding:10px;
+    float:right;
+    margin-right: 500px;
+    margin-top:-52px;
+   
+}
+.kutu2:hover a{
+    color:black;
+    transform:scale(1.05);
+    transition:0.3s;
+}
+
+footer a{
+     text-decoration:none;
+}
+footer{
+    
+     width: 100%;
+     height: 200px;
+     padding-top:35px;
+}
+@media (max-width: 1000px) {
+    .anamenu {
+        padding-left: 50px;
+    }
+
+    img {
+        margin-right: 80px;
+        width: 140px;
+        height: 140px;
+    }
+
+    .benkimim {
+        padding-left: 50px;
+        height: auto;
+    }
+
+    .bilgiler {
+        margin-right: 50px;
+    }
+
+    .cards {
+        flex-wrap: wrap;
+    }
+
+    .kutu1 {
+        margin-left: 50px;
+    }
+
+    .kutu2 {
+        margin-right: 50px;
+    }
+}
+
+@media (max-width: 600px) {
+    ul {
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .logo {
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+        margin-right: 0;
+    }
+
+    ul li {
+        padding: 10px;
+    }
+
+    .anamenu {
+        padding: 20px;
+        text-align: center;
+    }
+
+    img {
+        float: none;
+        margin: 10px auto;
+        width: 120px;
+        height: 120px;
+    }
+
+    .bilgiler {
+        float: none;
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .benkimim {
+        width: 100%;
+        height: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    footer {
+        height: auto;
+        padding: 25px 20px;
+        text-align: center;
+    }
+
+    .kutu1,
+    .kutu2 {
+        float: none;
+        width: 90%;
+        margin: 15px auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
